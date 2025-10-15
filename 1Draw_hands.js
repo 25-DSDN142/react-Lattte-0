@@ -1,7 +1,10 @@
 // ----=  HANDS  =----
 /* load images here */
+let bgImage;
+//let fPuppet1;
 function prepareInteraction() {
-  //bgImage = loadImage('/images/background.png');
+  bgImage = loadImage('/images/Untitled_Artwork(10).png');
+ // fPuppet1= loadImage('/images/Untitled_Artwork(9).png')
 }
 
 function drawInteraction(faces, hands) {
@@ -50,6 +53,10 @@ function drawInteraction(faces, hands) {
 
 
 function fingerPuppet(x, y) {
+  
+  //image(x,y,fPuppet1,20)
+  
+  
   fill(110, 60, 47) // brown
  ellipse(x, y, 40, 40)
  rect(x, y, 50, 75);
