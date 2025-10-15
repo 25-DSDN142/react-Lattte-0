@@ -27,12 +27,12 @@ function drawInteraction(faces, hands) {
 
     //fill(225, 225, 0);
     //ellipse(indexFingerTipX, indexFingerTipY, 30, 30);
-    ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
-    ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
+    //ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
+    //ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
 
     // drawPoints(hand)
 
-    //fingerPuppet(indexFingerTipX, indexFingerTipY);
+    fingerPuppet(indexFingerTipX, indexFingerTipY);
 
     //chameleonHandPuppet(hand)
 
@@ -51,11 +51,11 @@ function drawInteraction(faces, hands) {
 
 function fingerPuppet(x, y) {
   fill(255, 38, 219) // pink
-  ellipse(x, y, 100, 20)
-  ellipse(x, y, 20, 100)
+  ellipse(x, y, 40, 40)
+  //ellipse(x, y, 20, 100)
 
-  fill(255, 252, 48) // yellow
-  ellipse(x, y, 20) // draw center 
+  //fill(255, 252, 48) // yellow
+  //ellipse(x, y, 20) // draw center 
 
 }
 
