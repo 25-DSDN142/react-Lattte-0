@@ -50,12 +50,13 @@ function drawInteraction(faces, hands) {
 
 
 function fingerPuppet(x, y) {
-  fill(255, 38, 219) // pink
-  ellipse(x, y, 40, 40)
-  //ellipse(x, y, 20, 100)
+  fill(110, 60, 47) // brown
+ ellipse(x, y, 40, 40)
+ rect(x, y, 50, 75);
+  
 
-  //fill(255, 252, 48) // yellow
-  //ellipse(x, y, 20) // draw center 
+ // fill(48, 26, 20) // yellow
+ // ellipse(x, y, 15) // draw center 
 
 }
 
