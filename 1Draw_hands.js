@@ -1,9 +1,9 @@
 // ----=  HANDS  =----
 /* load images here */
- //fPuppet1= loadImage('/images/Untitled_Artwork(9).png')
+ let myImage;
 function prepareInteraction() {
   //bgImage = loadImage('/images/Untitled_Artwork(10).png');
- // fPuppet1= loadImage('/images/Untitled_Artwork(9).png')
+  myImage= loadImage('/images/Untitled_Artwork (9).png')
 }
 
 function drawInteraction(faces, hands) {
@@ -27,10 +27,12 @@ function drawInteraction(faces, hands) {
     Start drawing on the hands here
     */
 
-    fill(225, 225, 0);
-    ellipse(indexFingerTipX, indexFingerTipY, 30, 30);
-    ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
-    ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
+    //fill(225, 225, 0);
+    //ellipse(indexFingerTipX, indexFingerTipY, 30, 30);
+    //ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
+    //ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
+
+    image(myImage,pinkyFingerTipX,pinkyFingerTipY,200,200);
 
     // drawPoints(hand)
 
@@ -53,7 +55,7 @@ function drawInteraction(faces, hands) {
 
 function fingerPuppet(x, y) {
   
-  //image(fPuppet1,x,y,20)
+  
   
   
   //fill(110, 60, 47) // brown
