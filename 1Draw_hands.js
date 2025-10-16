@@ -32,7 +32,7 @@ function drawInteraction(faces, hands) {
     //ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
     //ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
 
-    image(myImage,pinkyFingerTipX,pinkyFingerTipY,200,200);
+    image(myImage,pinkyFingerTipX,pinkyFingerTipY,300,300);
 
     // drawPoints(hand)
 
