@@ -1,9 +1,8 @@
 // ----=  HANDS  =----
 /* load images here */
-let bgImage;
-//let fPuppet1;
+ //fPuppet1= loadImage('/images/Untitled_Artwork(9).png')
 function prepareInteraction() {
-  bgImage = loadImage('/images/Untitled_Artwork(10).png');
+  //bgImage = loadImage('/images/Untitled_Artwork(10).png');
  // fPuppet1= loadImage('/images/Untitled_Artwork(9).png')
 }
 
@@ -28,14 +27,14 @@ function drawInteraction(faces, hands) {
     Start drawing on the hands here
     */
 
-    //fill(225, 225, 0);
-    //ellipse(indexFingerTipX, indexFingerTipY, 30, 30);
-    //ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
-    //ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
+    fill(225, 225, 0);
+    ellipse(indexFingerTipX, indexFingerTipY, 30, 30);
+    ellipse(pinkyFingerTipX,pinkyFingerTipY,30, 30);
+    ellipse(pinkyFingerTipX,pinkyFingerTipY,20, 20);
 
     // drawPoints(hand)
 
-    fingerPuppet(indexFingerTipX, indexFingerTipY);
+    //fingerPuppet(indexFingerTipX, indexFingerTipY);
 
     //chameleonHandPuppet(hand)
 
@@ -54,12 +53,12 @@ function drawInteraction(faces, hands) {
 
 function fingerPuppet(x, y) {
   
-  //image(x,y,fPuppet1,20)
+  //image(fPuppet1,x,y,20)
   
   
-  fill(110, 60, 47) // brown
- ellipse(x, y, 40, 40)
- rect(x, y, 50, 75);
+  //fill(110, 60, 47) // brown
+ //ellipse(x, y, 40, 40)
+ //rect(x, y, 40, 60);
   
 
  // fill(48, 26, 20) // yellow
